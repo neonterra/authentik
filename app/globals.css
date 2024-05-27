@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navbar  */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 35px;
+  margin-top: 12px;
+}
+.logo img {
+  max-width: 100px;
+  /* border: 2px solid rebeccapurple; */
+}
+.linkss{
+  display: flex;
+}
+.linkss a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+.hero {
+  /* border: 2px solid red; */
+  margin-top: 150px;
+  height: 90vh;
+}
+/* hero section  */
+.content {
+  position: relative;
+  flex-direction: column;
+  padding: 10px 35px;
+  align-items: center;
+  /* border: 2px solid red; */
+  margin-top: 70px;
+}
+.content > .textContent {
+  font-size: 75px;
+  font-weight: 300;
+}
+.content h1 {
+  line-height: 60px;
+  font-size: 90px;
+  font-weight: 700;
+}
+.desContent {
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 20px;
+}
+.btnContent {
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 12%;
+  border-radius: 3px;
+  font-weight: 300;
+  font-size: 12px;
+  padding: 12px;
+  margin-top: 10px;
+}
+.Buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.moreText {
+  color: grey;
+  text-decoration: underline;
+  margin-left: 15px;
+}
+.endText {
+  text-align: right;
+  background-color: rgb(0, 0, 0);
+  color: rgb(220, 217, 217);
+  padding: 0 35px;
+  position: absolute;
+  right: 31px;
+  margin-top: 90px;
+}
+.heroTwo {
+  /* border: 2px solid red; */
+  height: 100vh;
+  padding: 10px 35px;
+}
+.heroTwo > h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+.heroTwo > p {
+  font-weight: 400;
+}
+
+.cardMain {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.card {
+  margin-top: 40px;
+  /* border: 2px solid red; */
+  width: 25%;
+}
+.card-title {
+  display: flex;
+  font-weight: 800;
+  font-size: 20px;
+}
+.card > img {
+  display: flex;
+  width: 40%;
+}
+.cardLink {
+  text-decoration: underline;
+  color: grey;
+  font-size: 14px;
+}
+.contact {
+  background-color: rgb(241, 240, 240);
+  /* border: 2px solid rebeccapurple; */
+  height: 100vh;
+  padding: 10px 35px;
+}
+.contact > h1 {
+  font-size: 65px;
+  font-weight: 800;
+  margin-top: 100px;
+}
+.contact > p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contactContainer {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.contactCard {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 2px solid #ccc; */
+  width: 25%;
+  margin-right: 120px;
+  margin-top: -30px;
+}
+
+.contactTitle {
+  font-size: 20px;
+  margin-top: 25px;
+  font-weight: 900;
+}
+.contactDescription {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 450px;
+  width: 400px;
+  /* border: 2px solid blue; */
+  background-color: white;
+}
+.formImage img {
+  margin-top: 25px;
+}
+form > h1 {
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 8px;
+}
+form > p {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 10px;
+}
+form > input {
+  background-color: rgb(210, 210, 210);
+  margin-top: 15px;
+  padding: 15px;
+  text-align: center;
+}
+.permit {
+  font-size: 14px;
+}
+form > .submit {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+  font-size: 12px;
+}
+.secondcard {
+  margin-top: -110px;
+  background-color: rgb(241, 240, 240);
+  display: flex;
+  padding: 40px 35px;
+}
+.centerTextt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centerTextt h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  padding: 100px 35px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.title > h2{
+  font-weight: 800;
+}
+.logo img {
+  height: 40px;
+}
+.center-content {
+  flex: 2;
+  text-align: center;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+.links div {
+  text-align: left;
+}
+.links a {
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+}
+.links a:hover {
+  text-decoration: underline;
+}
+.description > p{
+  font-weight: 500;
+  font-size: 15px;
+}
+.rights {
+  text-align: left;
+  font-size: 14px;
+}
+.about-section span{
+  font-weight: bold;
+}
+.resources-section span{
+  font-weight: bold;
+}
+.services-section span{
+  font-weight: bold;
+}
+.connect-section span {
+  font-weight: bold;
+}
